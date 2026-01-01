@@ -1,0 +1,12 @@
+numpy
+pandas
+pillow
+opencv-python-headless
+albumentations
+timm
+scikit-learn
+tqdm
+torch
+torchvision
+torchaudio
+pytorch-grad-cam
