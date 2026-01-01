@@ -5,7 +5,7 @@ This project leverages Convolutional Neural Networks (CNNs) and transfer learnin
 
 ## Overview
 
-Retinal diseases like diabetic retinopathy, macular degeneration, glaucoma, and others are leading causes of vision impairment worldwide. Automated detection using deep learning can significantly improve screening efficiency and diagnostic accuracy, especially in resource-constrained settings. :contentReference[oaicite:0]{index=0}
+Retinal diseases like diabetic retinopathy, macular degeneration, glaucoma, and others are leading causes of vision impairment worldwide. Automated detection using deep learning can significantly improve screening efficiency and diagnostic accuracy, especially in resource-constrained.
 
 This repository implements a **multi-class deep learning model** that:
 
