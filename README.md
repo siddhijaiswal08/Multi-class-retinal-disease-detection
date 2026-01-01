@@ -27,15 +27,25 @@ This repository implements a **multi-class deep learning model** that:
 
 ## Project Structure
 ├── data/ # Dataset folders (train, validation, test)
+
 ├── notebooks/ # Jupyter notebooks for training & visualization
+
 ├── models/ # Saved model weights/checkpoints
+
 ├── src/ # Core training and evaluation scripts
+
 │ ├── train.py
+
 │ ├── evaluate.py
+
 │ ├── preprocess.py
+
 │ └── utils.py
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md # Project documentation
+
 └── .gitignore
 
 
@@ -98,11 +108,11 @@ python src/train.py \
 ```
 Training highlights:
 
-Uses transfer learning with a pre-trained backbone (e.g., ResNet50)
+- Uses transfer learning with a pre-trained backbone (e.g., ResNet50)
 
-Applies augmentation (flip, rotation, contrast) during training
+- Applies augmentation (flip, rotation, contrast) during training
 
-Validates on a separate validation set
+- Validates on a separate validation set
 
 ## Evaluation & Inference
 To evaluate on the test set:
@@ -120,13 +130,13 @@ Outputs class predictions and confidence scores.
 ## Results
 Model performance is evaluated with:
 
-Accuracy
+- Accuracy
 
-Precision & Recall
+- Precision & Recall
 
-F1-score
+- F1-score
 
-Confusion Matrix
+- Confusion Matrix
 
 A well-trained model should achieve high accuracy (>80–90%) depending on dataset size and quality. 
 
@@ -139,6 +149,7 @@ Visualizations and plots from training and evaluation are provided in the notebo
 - Fine-tune with larger, clinically validated datasets
 
 - Integrate explainability (Grad-CAM / saliency maps)
+  
 - Deploy as REST API or mobile app for real-time diagnosis
 
 ## Requirements
